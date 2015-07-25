@@ -1,0 +1,18 @@
+<template name="chat">
+<!--   <div class="padding">   --> 
+<!--     <div class="text-center"> -->
+  {{#each onlusr}}
+    {{> channel}}
+  {{/each}}
+<!--     </div> -->
+<!--   </div> -->
+</template>
+
+<template name="channel">
+  <div class="list">
+    <a class="item" href="#">
+      {{username}}
+      <!-- {{> notifications}} -->
+    </a>
+  </div>
+</template>

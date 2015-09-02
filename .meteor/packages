@@ -16,3 +16,5 @@ aldeed:collection2
 aldeed:simple-schema
 underscore
 msavin:mongol
+copleykj:livestamp
+sacha:spin
